@@ -68,8 +68,32 @@ flutter:
     - assets/images/branding_name_1.png
     - assets/images/meta.png
     - assets/images/facebook.png
+    - assets/images/user.png
+    - assets/images/user1.png
+    - assets/images/user2.png
+    - assets/images/user3.png
+    - assets/images/story1.png
+    - assets/images/story2.png
+    - assets/images/story3.png
+    - assets/images/route_blue.png
+    - assets/images/route_white.png
     - assets/svg/meta.svg
     - assets/svg/facebook.svg
+    - assets/svg/home.svg
+    - assets/svg/notification.svg
+    - assets/svg/profile.svg
+    - assets/svg/store.svg
+    - assets/svg/watch.svg
+    - assets/svg/plus.svg
+    - assets/svg/search.svg
+    - assets/svg/messenger.svg
+    - assets/svg/plue_white.svg
+    - assets/svg/more.svg
+    - assets/svg/save.svg
+    - assets/svg/share.svg
+    - assets/svg/comment.svg
+    - assets/svg/heart.svg
+    - assets/svg/earth.svg
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

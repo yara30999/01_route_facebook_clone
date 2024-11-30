@@ -32,6 +32,14 @@ abstract class Styles {
         color: ColorsManager.white);
   }
 
+  static TextStyle style12Bold() {
+    return const TextStyle(
+        fontSize: 12,
+        fontFamily: FontConstants.fontInter,
+        fontWeight: FontWeight.w600,
+        color: Color(0xFF000000));
+  }
+
   static TextStyle style16Medium() {
     return const TextStyle(
         fontSize: 16,

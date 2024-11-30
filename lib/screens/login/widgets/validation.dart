@@ -48,19 +48,16 @@ class ValidationServiceImpl implements IValidationService {
     if (value == null || value.isEmpty) {
       return "Field is required";
     }
-
     // Check if the value matches the email format
     if (RegExp(
             r"^[a-zA-Z0-9.a-zA-Z0-9.!#$%&'*+-/=?^_`{|}~]+@[a-zA-Z0-9]+\.[a-zA-Z]+$")
         .hasMatch(value)) {
       return null; // If it's a valid email, return null
     }
-
     // Check if the value matches the Egyptian phone number format
     if (RegExp(r"^(?:\+20|0)(1[0-9])\d{8}$").hasMatch(value)) {
       return null; // If it's a valid phone number, return null
     }
-
     // If neither, return a generic error message
     return 'Invalid email or phone number format';
   }

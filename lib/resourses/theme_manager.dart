@@ -10,15 +10,20 @@ ThemeData getLightTheme() {
 
     // app bar theme
     appBarTheme: AppBarTheme(
-      centerTitle: true,
-      //backgroundColor: ColorsManager.green,
-      titleSpacing: 0,
+      centerTitle: false,
+      backgroundColor: ColorsManager.white,
+      //titleSpacing: 0,
       elevation: 8,
       shadowColor: ColorsManager.black,
       titleTextStyle: Styles.style14Bold(),
       toolbarTextStyle: Styles.style14Bold(),
     ),
-
+    // divider theme
+    dividerTheme: DividerThemeData(
+      color: ColorsManager.grey,
+      thickness: 2,
+    ),
+    // text selection theme
     textSelectionTheme: TextSelectionThemeData(
       cursorColor: ColorsManager.blue,
       selectionColor: ColorsManager.grey.withOpacity(0.5),
