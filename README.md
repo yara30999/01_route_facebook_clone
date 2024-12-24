@@ -1,16 +1,29 @@
-# facebook_clone
+# 📘 facebook_clone
 
-A new Flutter project.
+very similar Facebook login and home ui by flutter, using the most powerful sliver widgets.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## 📸 Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+<div style="display: flex; gap: 10px;">
+    <img src="readme/login_01.jpg" alt="home" width="200">
+    <img src="readme/login_02.jpg" alt="home" width="200">
+    <img src="readme/login_03.jpg" alt="home" width="200">
+</div>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+***
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<div style="display: flex; gap: 10px;">
+    <img src="readme/home_01.jpg" alt="home" width="200">
+    <img src="readme/home_02.jpg" alt="home" width="200">
+    <img src="readme/home_03.jpg" alt="home" width="200">
+</div>
+
+***
+#### add shadow to the Text Form Field (just a UI update)
+<div style="display: flex; gap: 10px;">
+    <img src="readme/home_04.jpg" alt="home" width="200">
+    <img src="readme/splash.jpg" alt="home" width="200">
+
+</div>
+
